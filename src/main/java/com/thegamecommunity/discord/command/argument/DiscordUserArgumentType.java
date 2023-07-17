@@ -82,7 +82,7 @@ public class DiscordUserArgumentType implements ArgumentType<User>{
 	
 	@Nullable
 	public User getUser(StringReader s) {
-		long id;
+		/*long id;
 		int cursor = s.getCursor();
 		StringBuilder sb = new StringBuilder();
 		if(s.canRead(2)) {
@@ -105,7 +105,7 @@ public class DiscordUserArgumentType implements ArgumentType<User>{
 					}
 				}
 			}
-		}
+		}*/
 		return null;
 	}
 	
